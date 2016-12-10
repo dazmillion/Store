@@ -1,0 +1,112 @@
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+	overflow-x: hidden;
+  font-size: 14px;
+  font-family: 'Hind Madurai', sans-serif;
+	color: #959595;
+	background-color: white;
+	text-rendering: auto;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+main,
+li {
+    display: block;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-size: inherit;
+  font-weight: normal;
+}
+strong {
+    font-weight: bold;
+}
+a,button {
+    color: inherit;
+    transition: .3s;
+}
+a {
+    text-decoration: none;
+}
+button {
+    overflow: visible;
+    border: 0;
+    font: inherit;
+    -webkit-font-smoothing: inherit;
+    letter-spacing: inherit;
+    background: none;
+    cursor: pointer;
+    padding: 0px 6px;
+}
+::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+:focus {
+    outline: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    border-radius: 6px;
+}
+
+input {
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+::-webkit-input-placeholder {
+   color: #5c5c5c;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #5c5c5c;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #5c5c5c;
+}
+
+:-ms-input-placeholder {
+   color: #5c5c5c;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
